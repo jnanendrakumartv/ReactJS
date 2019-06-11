@@ -1,0 +1,21 @@
+.mail{
+    width: 250px;
+    height: 30px;
+    
+}
+.pwd{
+    width: 250px;
+    height: 30px;
+}
+.button1{
+    background-color:green;
+    width: 250px;
+    height: 40px;
+  
+}
+.body{
+    background-color: aliceblue;
+    height: 300px;
+    width: 100%;
+    align-content: center;
+}
