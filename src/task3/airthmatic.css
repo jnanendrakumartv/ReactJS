@@ -1,0 +1,30 @@
+#button{
+    background-color: aqua;
+    width: 130px;
+    height: 50px;
+    margin: 65px;
+    border-radius: 25px;
+}
+#button:hover{
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+b{
+    font-size: 50px;
+    margin: 100px;
+}
+#b1{
+    color: red;
+}
+#b2{
+    color: blue;
+}
+#b3{
+    color: blueviolet;
+}
+#body{
+ background-color: lightblue;
+    width: 65%;
+   margin-left: 200px;
+   margin-top: 30px;
+}

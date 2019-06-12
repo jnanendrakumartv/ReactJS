@@ -7,6 +7,8 @@ import './App.css';
   import Cityclass from './task2/Cityclass';
   import Dobclass from './task2/Dobclass';
   import Login from './task2/Login';
+  import Arithamaticoperation from './task3/Arithamaticoperation';
+  //import Onclick from './task2/Onclick';
   //import Signin from'./Signin';
 //import Login from'./Login';
 
@@ -19,6 +21,9 @@ function App() {
         <Route exact path='/1' component={Cityclass}></Route>
         <Route exact path='/2' component={Dobclass}></Route>
         <Route exact path='/3' component={Login}></Route>
+        <Route exact path='/4' component={Arithamaticoperation}></Route>
+         {/* <Route exact path='/4' component={Onclick}></Route>  */}
+
 
       </switch>
     </Router>
