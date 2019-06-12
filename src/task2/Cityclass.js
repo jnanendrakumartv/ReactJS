@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Cityprint from './Cityprint';
+
 class Cityclass extends Component {
     render() {
         return (
