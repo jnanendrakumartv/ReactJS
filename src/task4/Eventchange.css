@@ -1,0 +1,15 @@
+#color{
+    margin-left: 280px;
+    background-color: bisque;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 400px;
+    height: 400px;
+}
+#button1{
+    background-color: aqua;
+    border-radius: 25px;
+    width: 110px;
+    height: 30px;
+}

@@ -1,14 +1,15 @@
 import React from 'react';
 
 import './App.css';
-//  import {BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
+
  import {BrowserRouter as Router, Route, Switch, Redirect} from'react-router-dom';
   import Ageclass from './task2/Ageclass';
   import Cityclass from './task2/Cityclass';
   import Dobclass from './task2/Dobclass';
   import Login from './task2/Login';
   import Arithamaticoperation from './task3/Arithamaticoperation';
-  //import Onclick from './task2/Onclick';
+  import Eventchange from './task4/Eventchange';
+ 
   //import Signin from'./Signin';
 //import Login from'./Login';
 
@@ -22,7 +23,7 @@ function App() {
         <Route exact path='/2' component={Dobclass}></Route>
         <Route exact path='/3' component={Login}></Route>
         <Route exact path='/4' component={Arithamaticoperation}></Route>
-         {/* <Route exact path='/4' component={Onclick}></Route>  */}
+        <Route exact path='/5' component={Eventchange}></Route>
 
 
       </switch>
